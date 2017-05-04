@@ -1,0 +1,74 @@
+* {
+    border: 1px solid magenta;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-wrapper {
+    position: relative;
+}
+
+.hero {
+    background-image: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {}
+
+.nav-words {
+    padding: 2%;
+}
+
+.nav-tabs {
+    font-family: 'Lato', sans-serif;
+    color: #F1F1F1;
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 78%;
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 2%;
+    margin-right: 43%;
+}
+
+.tab-spacer {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-tab {}
+
+
+/*.info-panel {
+    height:300px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, .8);
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}*/
+
+main .top-section {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+@media screen and (max-width: 700px) {
+    .info-panel {
+        width: 100%;
+        position: static;
+    }
+}
